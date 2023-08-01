@@ -12,7 +12,7 @@ export const Form = ({ addDiscussion }) => {
       <form action="" method="get" className="form" onSubmit={handleSubmit}>
         <div className="form__input--wrapper">
           <div className="form__input--name">
-            <label htmlFor="name">Enter your name: </label>
+            <label htmlFor="name">Enter your name : </label>
             <input type="text" name="name" id="name" required />
           </div>
           <div className="form__input--title">
